@@ -31,9 +31,9 @@ Para a realização dessa tarefa, foram necessárias as seguintes modificações
 psql -U usuario -d nome_do_banco
 ```
 
-4. Nesse passo serão inseridas os dados das operadoras ativas e canceladas. No terminal PSQL, cole o primeiro comando e substitua o "seu_caminho_aqui" pelo caminho dos arquivos no primeiro substitua pelo caminho do arquivo Relatorio_cadop.csv, após isso repita o processo para o segundo e  substitua o X pelo caminho do Relatorio_cadop_canceladas.csv
+4. Nesse passo serão inseridos os dados das operadoras ativas e canceladas. No terminal PSQL, cole o primeiro comando e substitua "seu_caminho_aqui" pelo caminho completo do arquivo Relatorio_cadop.csv. Em seguida, repita o processo com o segundo comando, substituindo novamente "seu_caminho_aqui" pelo caminho do arquivo Relatorio_cadop_canceladas.csv.
 
-No terminal PSQL, . Substitua X pelo caminho completo dos arquivos Relatorio_cadop.csv e Relatorio_cadop_canceladas.csv:
+No terminal PSQL, . Substitua "seu_caminho_aqui" pelo caminho completo dos arquivos Relatorio_cadop.csv e Relatorio_cadop_canceladas.csv:
 
 ```
 \COPY operadoras_ativas (
