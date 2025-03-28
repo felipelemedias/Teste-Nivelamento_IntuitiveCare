@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.cache
+*.log
+
+# Virtual environment
+venv/
+.env/
+.env
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Pipfile
+Pipfile.lock
+
+# Arquivos gerados pelo script ou fornecidos
+Teste_Felipe.zip
+RolProcedimentos&Eventos_Estruturados.csv
