@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env
+
+# Logs e arquivos temporários
+*.log
+*.cache
+
+# Arquivos gerados ou temporários
+*.zip
+
+# VS Code
+.vscode/
