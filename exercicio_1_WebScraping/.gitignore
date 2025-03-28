@@ -32,3 +32,6 @@ Pipfile.lock
 anexos_compactados.zip
 Anexo_I.pdf
 Anexo_II.pdf
+
+# pytest
+.pytest_cache/

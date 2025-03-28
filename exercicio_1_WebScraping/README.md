@@ -46,3 +46,24 @@ Script Python para automatizar o download dos Anexos I e II (PDF) do Rol de Proc
 Execute o script com o seguinte comando no console:
 ```bash
 python exerc1.py
+
+## ✅ Testes com o pytest
+
+Este exercício possui testes automatizados utilizando **pytest**.
+
+### ▶️ Como rodar os testes
+
+1. Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
+2. Execute os testes:
+```bash
+pytest
+```
+
+3. Os testes verificarão:
+- A criação da pasta de destino
+- A extração dos links de PDF no site da ANS
+- A geração correta do arquivo `.zip`
