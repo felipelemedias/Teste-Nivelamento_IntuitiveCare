@@ -44,14 +44,6 @@ python server.py
 
 ---
 
-## 📂 Estrutura
-
-- `server.py` → Código principal da API
-- `Data/Relatorio_cadop.csv` → Base de dados usada para busca
-- `requirements.txt` → Bibliotecas necessárias
-
----
-
 ## 🔎 Endpoint principal
 
 ### `/buscar`
@@ -69,6 +61,25 @@ python server.py
 **Retorno:** JSON com até 10 operadoras mais relevantes.
 
 ---
+
+## 🧪 Testes com Postman
+
+O projeto acompanha uma **coleção do Postman** (`Coleção 4. Teste API - IntuitiveCare.postman_collection.json`) que contém exemplos de requisições para testar a API com diferentes filtros (como CNPJ, UF, Representante, etc).
+
+### Como importar a coleção no Postman:
+
+1. Abra o Postman
+2. Clique em **"Import"**
+3. Selecione o arquivo `Coleção 4. Teste API - IntuitiveCare.postman_collection.json` dentro da pasta `back-end`
+4. Execute as requisições da coleção com o backend em execução
+
+---
+
+## 📌 Observações
+
+- A busca é realizada com base no arquivo `Relatorio_cadop.csv`
+- Os campos disponíveis para busca são: `Razao_Social`, `Nome_Fantasia`, `CNPJ`, `Cidade`, `UF`, `Representante`
+- A interface exibe os resultados de forma limpa e organizada, limitando os 10 mais relevantes
 
 ## 📌 Observação
 

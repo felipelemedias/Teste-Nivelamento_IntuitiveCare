@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "8cb53807-ebc1-4f20-9e00-b2ac1f8fd772",
+		"name": "Coleção 4. Teste API - IntuitiveCare",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41305939"
+	},
+	"item": [
+		{
+			"name": "Buscar RAZAO_SOCIAL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?campo=Razao_Social&termo=UNIMED",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "campo",
+							"value": "Razao_Social",
+							"description": "Buscar por Razão Social"
+						},
+						{
+							"key": "termo",
+							"value": "UNIMED",
+							"description": "Resultado da busca por Razão Social"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar REPRESENTANTE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?campo=Representante&termo=FELIPE JORGE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "campo",
+							"value": "Representante",
+							"description": "Buscar por Representante"
+						},
+						{
+							"key": "termo",
+							"value": "FELIPE JORGE",
+							"description": "Resultado da busca por Representante"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar UF",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?campo=UF&termo=SP",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "campo",
+							"value": "UF",
+							"description": "Buscar por UF"
+						},
+						{
+							"key": "termo",
+							"value": "SP",
+							"description": "Resultado da busca por UF"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar CIDADE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?campo=Cidade&termo=Campinas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "campo",
+							"value": "Cidade",
+							"description": "Buscar por Cidade"
+						},
+						{
+							"key": "termo",
+							"value": "Campinas",
+							"description": "Resultado da busca por Cidade"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar CNPJ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?campo=CNPJ&termo=28630531000187",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "campo",
+							"value": "CNPJ",
+							"description": "Buscar por CNPJ"
+						},
+						{
+							"key": "termo",
+							"value": "28630531000187",
+							"description": "Resultado da busca por CNPJ"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar NOME FANTASIA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?campo=Nome_Fantasia&termo=AD SALUTE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "campo",
+							"value": "Nome_Fantasia",
+							"description": "Buscar por Nome Fantasia"
+						},
+						{
+							"key": "termo",
+							"value": "AD SALUTE",
+							"description": "Resultado da busca por Nome Fantasia"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -8,12 +8,13 @@ Este projeto tem como objetivo realizar buscas em uma base de dados de operadora
 
 ```
 exercicio_4_TesteAPI/
-├── backend/           # Backend FastAPI
+├── back-end/           # Backend FastAPI
 │   ├── server.py      # Código principal do servidor
 │   ├── Data/          # Contém o arquivo CSV
 │   ├── venv/          # Ambiente virtual Python
-│   └── requirements.txt
-└── frontend/          # Aplicação Vue.js
+│   ├── requirements.txt
+    └── Coleção 4. Teste API - IntuitiveCare.postman_collection.json
+└── front-end/          # Aplicação Vue.js
     └── src/
         ├── App.vue    # Componente principal
         └── main.js
@@ -42,9 +43,9 @@ cd exercicio_4_TesteAPI
 
 ### 🔹 2. Backend (FastAPI)
 
-#### a) Entrar na pasta `backend`:
+#### a) Entrar na pasta `back-end`:
 ```bash
-cd backend
+cd back-end
 ```
 
 #### b) Criar e ativar o ambiente virtual:
