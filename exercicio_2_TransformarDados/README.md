@@ -41,8 +41,31 @@ Script Python para extrair tabelas do PDF "Anexo I", transformar e limpar os dad
     pip install -r requirements.txt
     ```
 
-## 🚀 Como usar
+## 🚀 Como rodar a aplicação
 
 Execute o script com o seguinte comando no console:
 ```bash
 python exerc2.py
+
+## ✅ Testes com pytest
+
+Este exercício possui testes automatizados com **pytest**.
+
+### ▶️ Como rodar os testes
+
+1. Ative o ambiente virtual e instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
+2. Execute os testes:
+```bash
+pytest
+```
+
+3. Os testes validam:
+- A extração de tabelas do PDF
+- A transformação correta dos dados
+- A criação dos arquivos CSV e ZIP
+
+---

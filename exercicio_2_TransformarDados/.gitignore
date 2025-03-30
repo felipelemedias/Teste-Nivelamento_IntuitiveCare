@@ -31,3 +31,6 @@ Pipfile.lock
 # Arquivos gerados pelo script ou fornecidos
 Teste_Felipe.zip
 RolProcedimentos&Eventos_Estruturados.csv
+
+# pytest
+.pytest_cache/
