@@ -46,6 +46,7 @@ Script Python para automatizar o download dos Anexos I e II (PDF) do Rol de Proc
 Execute o script com o seguinte comando no console:
 ```bash
 python exerc1.py
+```
 
 ## ✅ Testes com pytest
 

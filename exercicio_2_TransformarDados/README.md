@@ -46,6 +46,7 @@ Script Python para extrair tabelas do PDF "Anexo I", transformar e limpar os dad
 Execute o script com o seguinte comando no console:
 ```bash
 python exerc2.py
+```
 
 ## ✅ Testes com pytest
 
