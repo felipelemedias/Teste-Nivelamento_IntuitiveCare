@@ -77,10 +77,7 @@ O projeto acompanha uma **coleção do Postman** (`Coleção 4. Teste API - Intu
 
 ## 📌 Observações
 
+- Certifique-se de que o arquivo `Relatorio_cadop.csv` esteja dentro da pasta `Data/` para que o backend funcione corretamente.
 - A busca é realizada com base no arquivo `Relatorio_cadop.csv`
 - Os campos disponíveis para busca são: `Razao_Social`, `Nome_Fantasia`, `CNPJ`, `Cidade`, `UF`, `Representante`
 - A interface exibe os resultados de forma limpa e organizada, limitando os 10 mais relevantes
-
-## 📌 Observação
-
-Certifique-se de que o arquivo `Relatorio_cadop.csv` esteja dentro da pasta `Data/` para que o backend funcione corretamente.
