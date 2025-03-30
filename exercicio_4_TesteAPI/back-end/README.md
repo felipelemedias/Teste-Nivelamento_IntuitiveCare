@@ -6,9 +6,9 @@ Este diretório contém o backend da aplicação, desenvolvido com **FastAPI**.
 
 ## ▶️ Como rodar o backend
 
-### 1. Entrar na pasta `backend`:
+### 1. Entrar na pasta `back-end`:
 ```bash
-cd backend
+cd back-end
 ```
 
 ### 2. Criar e ativar o ambiente virtual:
@@ -33,6 +33,11 @@ pip install -r requirements.txt
 ### 4. Rodar o servidor:
 ```bash
 uvicorn server:app --reload
+```
+
+### 4. Rodar o servidor pelo arquivo server.py (cenário alternativo caso o passo 4 dê erro):
+```bash
+python server.py
 ```
 
 > O servidor será iniciado em: [http://localhost:8000](http://localhost:8000)

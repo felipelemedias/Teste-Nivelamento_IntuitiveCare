@@ -34,7 +34,7 @@ exercicio_4_TesteAPI/
 ### 🔹 1. Clonar o repositório (se ainda não tiver)
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone https://github.com/felipelemedias/Teste-Nivelamento_IntuitiveCare
 cd exercicio_4_TesteAPI
 ```
 
@@ -77,9 +77,9 @@ uvicorn server:app --reload
 
 ### 🔹 3. Frontend (Vue.js)
 
-#### a) Entrar na pasta `frontend`:
+#### a) Entrar na pasta `front-end`:
 ```bash
-cd ../frontend
+cd front-end
 ```
 
 #### b) Instalar as dependências:
@@ -98,7 +98,7 @@ npm run dev
 
 ## 📌 Observações
 
-- O backend carrega o arquivo `Relatorio_cadop.csv` para realizar as buscas.
+- O back-end carrega o arquivo `Relatorio_cadop.csv` para realizar as buscas.
 - A busca pode ser feita por Razão Social, Nome Fantasia, CNPJ, Cidade, UF e Representante.
 - A interface exibe os resultados de forma limpa e organizada.
 
@@ -106,6 +106,6 @@ npm run dev
 
 ## 💡 Dica
 
-Caso altere a porta do backend ou frontend, ajuste os endpoints no código do Vue (por padrão está apontando para `http://localhost:8000`).
+Caso altere a porta do back-end ou front-end, ajuste os endpoints no código do Vue (por padrão está apontando para `http://localhost:8000`).
 
 ---
