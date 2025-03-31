@@ -72,6 +72,11 @@ pip install -r requirements.txt
 uvicorn server:app --reload
 ```
 
+### e) Rodar o servidor pelo arquivo server.py (cenário alternativo caso o passo d) dê erro):
+```bash
+python server.py
+```
+
 > O backend será iniciado em: [http://localhost:8000](http://localhost:8000)
 
 ---
